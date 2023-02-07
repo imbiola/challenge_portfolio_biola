@@ -10,6 +10,8 @@ class Add_player(BasePage):
     main_pos_but_xpath = '//div[11]/div/div/input'
     submit_button_xpath = '//div[3]/button[1]/span[1]'
     date_button_xpath = '//div[7]/div/div/input'
+    add_language_xpath = '//div[15]/button/span[1]'
+    print_language_xpath = '//div[15]/div/div/div/input'
 
     def new_player(self):
         self.click_on_the_element(self.add_player_button_xpath)
@@ -40,6 +42,10 @@ class Add_player(BasePage):
     def title_of_page(self):
         assert self.get_page_title(self.login_url) == self.expected_title
 
+    def add_language(self):
+        self.click_on_the_element(self.add_language_xpath)
 
+    def print_new_language(self, language):
+        self.field_send_keys(self.print_language_xpath, language)
 
     pass
