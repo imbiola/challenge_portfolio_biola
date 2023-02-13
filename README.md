@@ -4,9 +4,10 @@
 
 ## Subtask 1: Why did I choose to participate in the Dare IT Challenge?
 
-Mama mia. It is so challenging to me to do something new. I like that feeling when I'm suffering by lack of knowledge 
-
-and I hope that it would be nice journey.
+It was a bit challenging to me to start something completely different
+from that things which I've done before and had strong experience with.
+But I glad to find this challenge and use it as a part of my new journey. 
+Thank you a lot, for this opportunity.
 
 ## Task 2 :  Selectors
 
